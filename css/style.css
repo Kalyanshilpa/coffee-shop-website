@@ -1,4 +1,4 @@
-/* ------------------ GLOBAL ------------------ */
+
 *{
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ a { text-decoration: none; }
   background: var(--secondary-color);
 }
 
-/* ---------------------- NAVBAR ---------------------- */
+/* Navbar section styling */
 
 header{
   background-color: var(--primary-color);
@@ -105,7 +105,7 @@ header .navbar{
   display: none;
 }
 
-/* ---------------------- HERO SECTION ---------------------- */
+/* Hero section styling */
 
 .hero-section{
   min-height: 100vh;
@@ -159,7 +159,7 @@ header .navbar{
   border-color: var(--white-color);
 }
 
-/* ------------------ ABOUT SECTION ------------------ */
+/* About Section */
 
 .about-section {
   padding: 120px 0;
@@ -192,7 +192,7 @@ header .navbar{
 
 .about-section .about-details .section-title {
   padding: 0;
-  text-align: left;
+ 
 }
 
 .about-section .about-details .text {
@@ -218,7 +218,7 @@ header .navbar{
   color: var(--secondary-color);
 }
 
-/* ---------------------- MOBILE RESPONSIVE ---------------------- */
+
 
 @media screen and (max-width: 900px) {
 
@@ -292,7 +292,7 @@ header .navbar{
     max-width: 100%;
   }
 
-  /* ABOUT mobile */
+ 
   .about-section .section-content {
     flex-direction: column;
     text-align: center;
@@ -461,7 +461,7 @@ header .navbar{
   box-shadow: 0 6px 20px rgba(0,0,0,0.15);
 }
 
-/* Testimonial Image */
+
 .testimonial .testimonial-image {
   width: 120px;
   height: 120px;
@@ -471,7 +471,7 @@ header .navbar{
   border: 4px solid var(--secondary-color);
 }
 
-/* Customer Name */
+
 .testimonial .name {
   margin-bottom: 12px;
   font-size: var(--font-size-l);
@@ -479,7 +479,7 @@ header .navbar{
   color: var(--primary-color);
 }
 
-/* Feedback Text */
+
 .testimonial .feedback {
   line-height: 25px;
   font-size: var(--font-size-m);
@@ -487,7 +487,7 @@ header .navbar{
   font-style: italic;
 }
 
-/* ------------------ RESPONSIVE ------------------ */
+/* Responsive styling */
 
 @media screen and (max-width: 768px) {
   .testimonials-list {
@@ -514,7 +514,7 @@ header .navbar{
 }
 
 
-/* ------------------ CONTACT SECTION ------------------ */
+/* Contact section styling */
 
 .contact-section {
   padding: 50px 0 100px;
@@ -531,7 +531,7 @@ header .navbar{
   padding: 0 20px;
 }
 
-/* ------------------ CONTACT INFO LIST ------------------ */
+/* Contact-info list styling */
 
 .contact-info-list {
   list-style: none;
@@ -561,7 +561,7 @@ header .navbar{
   color: var(--dark-color);
 }
 
-/* ------------------ CONTACT FORM ------------------ */
+/* Contact-form styling */
 
 .contact-form {
   display: flex;
@@ -593,15 +593,15 @@ header .navbar{
 .form-button {
   background-color: var(--secondary-color);
   color: var(--white-color);
-  padding: 8px 18px;       /* smaller padding */
-  font-size: 0.95rem;      /* smaller font */
+  padding: 8px 18px;       
+  font-size: 0.95rem;      
   font-weight: var(--font-weight-semi-bold);
   border-radius: var(--border-radius-m);
   border: none;
   cursor: pointer;
   transition: 0.3s;
   width: 100px;       
-  align-self: center;          /* fixed width */              /* fixed height */
+  align-self: center;          
   
 }
 
@@ -611,7 +611,7 @@ header .navbar{
   transform: translateY(-2px);
 }
 
-/* ------------------ RESPONSIVE ------------------ */
+
 
 @media screen and (max-width: 900px) {
   .contact-section .section-content {
@@ -636,7 +636,7 @@ header .navbar{
 }
 
 /* Footer Section */
-/* ------------------ FOOTER SECTION ------------------ */
+
 
 .footer-section {
   background-color: var(--primary-color);
@@ -654,13 +654,13 @@ header .navbar{
   align-items: center;
 }
 
-/* Footer text */
+
 .footer-text {
   font-size: var(--font-size-m);
   margin-bottom: 10px;
 }
 
-/* Social links */
+
 .footer-section .social-link-list {
   display: flex;
   gap: 20px;
@@ -677,7 +677,7 @@ header .navbar{
   color: var(--secondary-color);
 }
 
-/* Policy links */
+
 .olicy-text {
   font-size: var(--font-size-s);
   color: var(--white-color);
@@ -694,7 +694,7 @@ header .navbar{
   color: var(--secondary-color);
 }
 
-/* Separator between policy links */
+
 .separator {
   display: inline-block;
   width: 1px;
@@ -703,7 +703,7 @@ header .navbar{
   margin: 0 8px;
 }
 
-/* ------------------ RESPONSIVE ------------------ */
+
 @media screen and (max-width: 900px) {
   .footer-section .section-content {
     gap: 15px;
