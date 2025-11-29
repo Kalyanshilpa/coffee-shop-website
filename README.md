@@ -4,4 +4,4 @@ This is a responsive Coffee Shop website built with HTML, CSS, and JavaScript. I
 
 #Live deployed URL
 
-https://coffee-shop-website-84yj.vercel.app/
+https://coffee-shop-website-s5br.vercel.app/
